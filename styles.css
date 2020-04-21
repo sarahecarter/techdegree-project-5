@@ -1,10 +1,25 @@
 
+input {
+    width: 450px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .photos img {
     margin: 20px;
 }
 
 .photos {
-    margin: 10px;
+    margin: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
