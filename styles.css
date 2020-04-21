@@ -1,0 +1,14 @@
+
+.photos img {
+    margin: 20px;
+}
+
+.photos {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    
