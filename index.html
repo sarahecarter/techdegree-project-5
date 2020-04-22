@@ -4,26 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Photo Gallery</title>
+    <link type="text/css" rel="stylesheet" href="js/lightgallery/css/lightgallery.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
     <input type=text id="photoSearch" name="search" placeholder="Search(16pt)">
     </div>
-    
-    <div class="photos">
-       <img src="photo_gallery_v4/photos/thumbnails/01.jpg" alt="Hay Bales">
-       <img src="photo_gallery_v4/photos/thumbnails/02.jpg" alt="Lake">
-       <img src="photo_gallery_v4/photos/thumbnails/03.jpg" alt="Canyon"> 
-       <img src="photo_gallery_v4/photos/thumbnails/04.jpg" alt="Ice Berg">
-       <img src="photo_gallery_v4/photos/thumbnails/05.jpg" alt="Desert">
-       <img src="photo_gallery_v4/photos/thumbnails/06.jpg" alt="Fall">
-       <img src="photo_gallery_v4/photos/thumbnails/07.jpg" alt="Plantation">
-       <img src="photo_gallery_v4/photos/thumbnails/08.jpg" alt="Dunes">
-       <img src="photo_gallery_v4/photos/thumbnails/09.jpg" alt="Countryside Lane">
-       <img src="photo_gallery_v4/photos/thumbnails/10.jpg" alt="sunset"> 
-       <img src="photo_gallery_v4/photos/thumbnails/11.jpg" alt="Cave">
-       <img src="photo_gallery_v4/photos/thumbnails/12.jpg" alt="Bluebells">
+
+    <div class="photos" id="lightgallery">
+        <a href="photo_gallery_v4/photos/01.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/01.jpg" alt="Hay Bales">
+        </a>
+        <a href="photo_gallery_v4/photos/02.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/02.jpg" alt="Lake">
+        </a>
+        <a href="photo_gallery_v4/photos/03.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/03.jpg" alt="Canyon"> 
+        </a>
+        <a href="photo_gallery_v4/photos/04.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/04.jpg" alt="Ice Berg">
+        </a>
+        <a href="photo_gallery_v4/photos/05.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/05.jpg" alt="Desert">
+        </a>
+        <a href="photo_gallery_v4/photos/06.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/06.jpg" alt="Fall">
+        </a>
+        <a href="photo_gallery_v4/photos/07.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/07.jpg" alt="Plantation">
+        </a>
+        <a href="photo_gallery_v4/photos/08.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/08.jpg" alt="Dunes">
+        </a>
+        <a href="photo_gallery_v4/photos/09.jpg">
+            <img src="photo_gallery_v4/photos/thumbnails/09.jpg" alt="Countryside Lane">
+        </a>
+        <a href="photo_gallery_v4/photos/10.jpg">    
+            <img src="photo_gallery_v4/photos/thumbnails/10.jpg" alt="sunset"> 
+        </a>
+        <a href="photo_gallery_v4/photos/11.jpg">
+           <img src="photo_gallery_v4/photos/thumbnails/11.jpg" alt="Cave">
+        </a>
+       <a href="photo_gallery_v4/photos/12.jpg">
+           <img src="photo_gallery_v4/photos/thumbnails/12.jpg" alt="Bluebells">
+        </a>
     </div>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/lightgallery/js/lightgallery.min.js"></script>
 </body>
 </html>
