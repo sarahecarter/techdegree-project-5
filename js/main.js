@@ -5,8 +5,8 @@ const imageSearch = event => {
     const searchTerm = event.target.value.toLowerCase();
 
     imageTexts.forEach(imageTexts => {
-        const text = imageTexts.textContent.toLowerCase();
-        const image = imageTexts.nextElementSibling;
+        const text = imageTexts.getAttribute('data-sub-html').toLowerCase();
+        const image = imageTexts
 
         if(text.indexOf(searchTerm) > -1) {
             image.style.display = "block";
