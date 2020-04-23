@@ -1,6 +1,5 @@
 
 input {
-    width: 450px;
     padding: 10px;
     border-radius: 3px;
     border: 1px solid lightgray;
@@ -32,8 +31,23 @@ input {
 }
 
 /* Media Queries */
-@media(min-width:768px) {
-   
+@media (min-width: 320px) {
+    input {
+        width: 300px;
+    }
+ }
+
+ @media (min-width: 768px) {
+    input {
+        width: 450px;
+    }
+ }
+
+@media (min-width: 1024px) {
+   .photos {
+       max-width: 1000px;
+       margin: auto;
+   }
 }
 
 
