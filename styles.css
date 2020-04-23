@@ -8,6 +8,10 @@ input {
     font-size: 12px;
 }
 
+.text {
+    display: none;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -26,5 +30,11 @@ input {
     justify-content: center;
     
 }
+
+/* Media Queries */
+@media(min-width:768px) {
+   
+}
+
 
     

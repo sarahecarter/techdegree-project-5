@@ -1,6 +1,5 @@
 01.jpg
-<h4>Hay Bales</h4>
-<p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
+<h4>Hay Bales</h4><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
 
 02.jpg
 <h4>Lake</h4><p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
@@ -34,3 +33,16 @@
 
 12.jpg
 <h4>Bluebells</h4><p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
+
+        <div  id="caption1"><h4>Hay Bales</h4><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p></div>
+        <div  id="caption2"><h4>Lake</h4><p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p></div>
+        <div  id="caption3"><h4>Canyon</h4><p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p></div>
+        <div  id="caption4"><h4>Iceberg</h4><p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p></div>
+        <div  id="caption5"><h4>Desert</h4><p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p></div>
+        <div  id="caption6"><h4>Fall</h4><p>Fall is coming, I love when the leaves on the trees start to change color.</p></div>
+        <div  id="caption7"><h4>Plantation</h4><p>I drove past this plantation yesterday, everything is so green!</p></div>
+        <div  id="caption8"><h4>Dunes</h4><p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p></div>
+        <div  id="caption9"><h4>Countryside Lane</h4><p>We enjoyed a quiet stroll down this countryside lane.</p></div>
+        <div  id="caption10"><h4>Sunset</h4><p>Sunset at the coast! The sky turned a lovely shade of orange.</p></div>
+        <div  id="caption11"><h4>Cave</h4><p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p></div>
+        <div  id="caption12"><h4>Bluebells</h4><p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p></div>
